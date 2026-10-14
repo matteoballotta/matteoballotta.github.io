@@ -17,7 +17,7 @@ export default defineConfig({
 			options: {
 				variants: [
 					{
-						src: ['./src/assets/fonts/atkinson-regular.woff'],
+						src: ['./src/assets/fonts/JetBrainsMono-Medium.woff2'],
 						weight: 400,
 						style: 'normal',
 						display: 'swap',
