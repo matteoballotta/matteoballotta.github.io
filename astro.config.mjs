@@ -18,13 +18,29 @@ export default defineConfig({
 			options: {
 				variants: [
 					{
-						src: ['./src/assets/fonts/JetBrainsMono-Medium.woff2'],
-						weight: 500,
+						src: ['./src/assets/fonts/JetBrainsMono-Regular.woff2'],
+						weight: 400,
 						style: 'normal',
 						display: 'swap',
 					},
 				],
 			},
+    },
+    {
+		provider: fontProviders.local(),
+		name: 'PixelifySans',
+		cssVariable: '--font-pixelify-sans',
+		fallbacks: ['sans-serif'],
+		options: {
+			variants: [
+				{
+					src: ['./src/assets/fonts/PixelifySans-Regular.woff2'],
+					weight: 400,
+					style: 'normal',
+					display: 'swap',
+				},
+			],
 		},
+	},
 	],
 });
