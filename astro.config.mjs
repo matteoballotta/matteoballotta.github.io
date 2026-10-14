@@ -27,20 +27,20 @@ export default defineConfig({
 			},
     },
     {
-		provider: fontProviders.local(),
-		name: 'PixelifySans',
-		cssVariable: '--font-pixelify-sans',
-		fallbacks: ['sans-serif'],
-		options: {
-			variants: [
-				{
-					src: ['./src/assets/fonts/PixelifySans-Regular.woff2'],
-					weight: 400,
-					style: 'normal',
-					display: 'swap',
-				},
-			],
-		},
-	},
+  		provider: fontProviders.local(),
+  		name: 'PixelifySans',
+  		cssVariable: '--font-pixelify-sans',
+  		fallbacks: ['sans-serif'],
+  		options: {
+  			variants: [
+  				{
+  					src: ['./src/assets/fonts/PixelifySans-Regular.woff2'],
+  					weight: 400,
+  					style: 'normal',
+  					display: 'swap',
+  				},
+  			],
+  		},
+    },
 	],
 });
