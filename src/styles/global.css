@@ -6,7 +6,7 @@
 
 :root {
 	--accent: #b28fa9;
-	--accent-dark: #000d8a;
+	--accent-hover: #9e7896;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -82,10 +82,11 @@ b {
 
 a {
 	color: var(--accent);
+	transition: background-color 0.2s ease;
 }
 
 a:hover {
-	color: var(--accent);
+	color: var(--accent-hover);
 }
 
 p {
